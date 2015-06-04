@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "FB Clickbait Removal",
+  "version": "0.1",
+  "description": "Remove clickbait title links from FB",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["clean.js"]
+    }
+  ]
+}
