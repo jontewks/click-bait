@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "FB Clickbait Removal",
+  "name": "Facebook Clickbait Removal",
   "version": "0.1",
-  "description": "Remove clickbait title links from FB",
+  "description": "Remove posts with clickbait titles from your facebook newsfeed",
   "browser_action": {
     "default_icon": "icon.png"
   },
